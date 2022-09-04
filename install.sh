@@ -74,7 +74,7 @@ install_download() {
     [ -d ./ethminerpro ] && rm -rf ./ethminerpro
     git clone --depth=1 https://github.com/Char1es0rz/EtcMinerProxy.git
 
-    if [[ ! -d ./ethminerproxy ]]; then
+    if [[ ! -d ./EtcMinerProxy ]]; then
         echo
         echo -e "$red 克隆脚本仓库出错了...$none"
         echo
@@ -203,7 +203,7 @@ update(){
 
     git clone https://github.com/Char1es0rz/EtcMinerProxy.git
 
-    if [[ ! -d ./ethminerproxy ]]; then
+    if [[ ! -d ./EtcMinerProxy ]]; then
         echo
         echo -e "$red 克隆脚本仓库出错了...$none"
         echo
